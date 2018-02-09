@@ -19,6 +19,7 @@ describe('RandomKeyGenerator', () => {
 
       const key = gen.createKey(3);
 
+      console.log("Key is " + key);
       assert.ok(consonants.includes(key[0]));
       assert.ok(consonants.includes(key[2]));
       assert.ok(vowels.includes(key[1]));
