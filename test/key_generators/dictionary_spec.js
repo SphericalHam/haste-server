@@ -7,7 +7,7 @@ const fs = require('fs');
 const Generator = require('../../lib/key_generators/dictionary');
 
 describe('RandomKeyGenerator', function() {
-  describe('randomKey', function() {
+  describe('dictionaryKey', function() {
     it('should throw an error if given no options', () => {
       assert.throws(() => {
         new Generator();
