@@ -8,7 +8,7 @@ const vowels = 'aeiou';
 const consonants = 'bcdfghjklmnpqrstvwxyz';
 
 describe('RandomKeyGenerator', () => {
-  describe('randomKey', () => {
+  describe('phoneticKey', () => {
     it('should return a key of the proper length', () => {
       const gen = new Generator();
       assert.equal(6, gen.createKey(6).length);
